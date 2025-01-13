@@ -5,7 +5,7 @@ import json
 
 # Function to extract user data for Hostel A
 def fetch_users_hostel_a(page):
-    url = f"http://wannahack.iitbhucybersec.in:48042/hostel/A?page={page}"
+    url = f"http://wannahack.iitbhucybersec.in:16640/hostel/A?page={page}"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -40,7 +40,7 @@ def scrape_hostel_a():
 
 # Function to fetch user data for Hostel B
 def fetch_users_hostel_b(page):
-    url = f"http://wannahack.iitbhucybersec.in:48042/hostel/B?page={page}"
+    url = f"http://wannahack.iitbhucybersec.in:16640/hostel/B?page={page}"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -76,7 +76,7 @@ def scrape_hostel_b():
 
 # Function to fetch user data for Hostel D
 def fetch_users_hostel_d(page):
-    url = f"http://wannahack.iitbhucybersec.in:48042/hostel/D?page={page}"
+    url = f"http://wannahack.iitbhucybersec.in:16640/hostel/D?page={page}"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -99,7 +99,7 @@ def fetch_users_hostel_d(page):
 # Function to scrape data for Hostel D
 # Function to fetch and format Hostel C data
 def fetch_users_hostel_c():
-    url = "http://wannahack.iitbhucybersec.in:48042/hostel/C"
+    url = "http://wannahack.iitbhucybersec.in:16640/hostel/C"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()  # Assuming the response is in JSON format
@@ -132,7 +132,7 @@ def scrape_hostel_d():
 
 # Function to fetch user data from Hostel E (AJAX)
 def fetch_users_hostel_e(offset):
-    url = f"http://wannahack.iitbhucybersec.in:48042/hostel/E?offset={offset}"
+    url = f"http://wannahack.iitbhucybersec.in:16640/hostel/E?offset={offset}"
     headers = {'X-Requested-With': 'XMLHttpRequest'}
 
     try:
