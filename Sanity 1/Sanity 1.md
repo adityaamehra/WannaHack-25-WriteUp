@@ -16,7 +16,7 @@ We joined the WannaHack CTF Discord server as instructed in the challenge descri
 In the Discord server, we navigated to the **rules** section, which is typically found in a dedicated channel or pinned messages.
 
 ### Step 3: Retrieving the Flag
-Upon reviewing the rules, we found the flag embedded in the text:
+Upon reviewing the rules, we found the flag in the text:
 
 ```
 WannaHack{y0u_4r3_54n3_6969}
