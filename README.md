@@ -18,6 +18,9 @@ This repository documents a wide array of tools and techniques, including but no
 - **Ghidra**
 - **fcrackzip**
 - **CyberChef**
+- **apktool**
+- **jadx-gui**
+- **Android Studio**
 
 ## How to Use This Repository
 
