@@ -102,7 +102,7 @@ conn.close()
 
 ## Flag
 ```
-<Insert Flag Here>
+WannaHack{ECB_CBC_0h_1_ee_4ES_1s_S0_D4mn_e45Y_eoVCPxlh}
 ```
 
 ## Notes
