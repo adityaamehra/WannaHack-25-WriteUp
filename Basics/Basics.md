@@ -61,7 +61,7 @@ r.close()
 
 ## Flag
 ```
-<Insert Flag Here>
+You mastered the basics! Here is your reward - WannaHack{pwntools_m4g1c_DCQrhm7D}
 ```
 
 ## Notes
